@@ -8,12 +8,12 @@
 ############################
 
 # Basic Information 
-title: Gary Fishman
-position: Ph.D. Student
-affiliation: National Taiwan University<br>國立台灣大學
-affiliation_link: https://www.math.ntu.edu.tw/
-email: fishman (at) university.edu
-# address: No. 1, Sec. 4, Roosevelt Rd.<br>Taipei City 106, Taiwan (R.O.C.)
+title: Harman Preet Singh
+position: Post-doctoral Researcher
+affiliation: Eberhard Karls Universität Tübingen
+affiliation_link: https://www.math.uni-tuebingen.de/
+email: harman-preet (dot) singh (at) uni-tuebingen (dot) de
+address: Department of Mathematics, Auf der Morgenstelle 10, 72076 Tübingen, Germany
 
 # your profile picture
 avatar: ./assets/img/profile_alt.jpg
@@ -21,18 +21,18 @@ avatar: ./assets/img/profile_alt.jpg
 # Sidebar Links 
 # For those you don't need, delete or comment out the corresponding line.
 cv_link: assets/files/shinchan_sample_cv.pdf
-arxiv: https://arxiv.org/a/0000-0002-0101-0521
-google_scholar: https://scholar.google.com/citations?user=_D7ce2cAAAAJ&sortby=pubdate
-math_overflow: https://mathoverflow.net/users/81295/harry-richman
+# arxiv: https://arxiv.org/a/0000-0002-0101-0521
+google_scholar: https://scholar.google.com/citations?user=su1aN58AAAAJ&hl=it&oi=sra
+# math_overflow: https://mathoverflow.net/users/81295/harry-richman
 github_link: https://github.com/harryrichman
 # linkedin: https://www.linkedin.com/in/harry-richman/
-# orcid: https://orcid.org/0000-0002-0101-0521
+orcid: https://orcid.org/0009-0008-8014-4974
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-description: The academic personal homepage of Gary Fishman.
-keywords: Gary Fishman academic research mathematics
-canonical: https://harryrichman.github.io/minimal-light-academic/
+description: The academic personal homepage of Harman Preet Singh.
+keywords: Harman Preet Singh academic research mathematics math mathematical physics
+canonical: https://singh-hp.github.io
 
 
 ############################
@@ -41,7 +41,7 @@ canonical: https://harryrichman.github.io/minimal-light-academic/
 
 # Customization
 # option to choose between Serif or Sans Serif fonts.
-font: "Sans Serif" # "Serif" or "Sans Serif" 
+font: "Serif" # "Serif" or "Sans Serif" 
 # option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
 enable_footnote: true
 # option to toggle the automatic dark theme
