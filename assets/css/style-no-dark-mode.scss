@@ -3,18 +3,3 @@
 
 @import "minimal-light-no-dark-mode";
 @import "publications-no-dark-mode";
-
-/* Reduce lateral margins for ALL content, including publications */
-.page-content,
-body > div,
-body > main,
-main,
-.post,
-.home,
-.content {
-  max-width: 1100px !important;  /* Increase content width */
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 10px !important;
-  padding-right: 10px !important;
-}
