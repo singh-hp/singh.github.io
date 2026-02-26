@@ -4,42 +4,39 @@
 @import "minimal-light-no-dark-mode";
 @import "publications-no-dark-mode";
 
-/* 1. Universal Box Sizing - Prevents padding from breaking the width math */
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-/* 2. Expand the outer container */
+/* 1. Expand the master container */
 .wrapper {
-  max-width: 1150px; /* Increased for more room */
+  max-width: 1100px; /* The new total width */
   margin: 0 auto;
-  width: 90%; /* Ensures it doesn't touch screen edges on mid-sized tablets */
+  position: relative;
 }
 
-/* 3. Force Side-by-Side Layout */
+/* 2. Adjust for Desktop (Standard theme breakpoint) */
 @media screen and (min-width: 640px) {
+  
   header {
-    width: 220px; /* Fixed sidebar width */
-    float: left;
-    margin-right: 40px; /* Space between columns */
+    /* Ensure the sidebar has a stable width and position */
+    width: 210px; 
+    position: absolute; /* The theme likely uses absolute or fixed */
+    left: 0;
+    top: 0;
   }
 
   main {
-    /* (100% of wrapper) - (header width) - (the 40px margin-right above) */
-    width: calc(100% - 260px); 
-    float: left; /* Using left for both is safer than right to prevent gaps */
-    margin: 0;
+    /* Reset the width to be elastic */
+    width: auto; 
+    max-width: 100%;
+    
+    /* This margin MUST be larger than the header width to prevent overlap */
+    /* Header (210px) + Gap (50px) = 260px */
+    margin-left: 260px; 
+    
+    /* Ensure no other floats interfere */
+    float: none; 
   }
 
-  /* 4. Reset internal widths so they fill the new 'main' */
+  /* 3. Unlock internal content width */
   main > * {
     max-width: 100% !important;
   }
-}
-
-/* 5. Clearfix - Prevents the footer from jumping up into the columns */
-.wrapper:after {
-  content: "";
-  display: table;
-  clear: both;
 }
