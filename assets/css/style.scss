@@ -4,17 +4,25 @@
 @import "minimal-light";
 @import "publications";
 
-/* REMOVE ABSOLUTE OR FIXED POSITIONING */
+/* === Fix two-column layout (float-based) === */
+
+/* Left column (header / sidebar) */
 header {
-  position: static !important;  
   float: left;
-  width: 260px;
-  margin-right: 40px;
+  width: 260px;            /* ← set sidebar width here */
+  margin-right: 40px;      /* space between columns */
 }
 
-/* PUSH MAIN CONTENT TO THE RIGHT SO IT DOESN'T SIT UNDER HEADER */
+/* Right column (main content) */
 main {
-  margin-left: 300px;   /* 260 + 40 */
   display: block;
-  max-width: 900px;
+  margin-left: 300px;      /* Must be header width + margin-right */
+  max-width: 900px;        /* Adjust main column width */
 }
+
+// .image.avatar img {
+//     width: 85%;
+//     border-radius: 15%;
+//     margin: 20px 10px;
+//     padding: 0;
+// }
