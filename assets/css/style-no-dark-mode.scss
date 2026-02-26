@@ -6,37 +6,43 @@
 
 /* 1. Expand the master container */
 .wrapper {
-  max-width: 1100px; /* The new total width */
+  max-width: 1200px; /* Increased slightly more for the extra spacing */
   margin: 0 auto;
   position: relative;
 }
 
-/* 2. Adjust for Desktop (Standard theme breakpoint) */
+/* 2. Adjust for Desktop */
 @media screen and (min-width: 640px) {
   
   header {
-    /* Ensure the sidebar has a stable width and position */
-    width: 210px; 
-    position: absolute; /* The theme likely uses absolute or fixed */
+    /* Widen the sidebar slightly to prevent email overflow */
+    width: 240px; 
+    position: absolute;
     left: 0;
     top: 0;
   }
 
   main {
-    /* Reset the width to be elastic */
     width: auto; 
     max-width: 100%;
     
-    /* This margin MUST be larger than the header width to prevent overlap */
-    /* Header (210px) + Gap (50px) = 260px */
-    margin-left: 260px; 
+    /* INCREASED SPACING: 
+       Sidebar (240px) + Gap (80px) = 320px 
+       This creates a clear 'gutter' between columns */
+    margin-left: 320px; 
     
-    /* Ensure no other floats interfere */
     float: none; 
   }
 
-  /* 3. Unlock internal content width */
+  /* 3. Ensure content fills the widened right column */
   main > * {
     max-width: 100% !important;
+  }
+
+  /* 4. Prevent long emails from breaking out of the header */
+  header email {
+    display: block;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 }
