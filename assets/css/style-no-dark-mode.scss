@@ -4,51 +4,56 @@
 @import "minimal-light-no-dark-mode";
 @import "publications-no-dark-mode";
 
-/* 1. Global expansion of the page width */
+/* 1. Expand total site width */
 .wrapper {
-  max-width: 1250px !important; /* Total site width */
+  max-width: 1300px !important;
   margin: 0 auto !important;
-  padding-left: 40px !important;
-  padding-right: 40px !important;
   position: relative !important;
 }
 
-/* 2. Desktop Layout (Applied only to screens wider than 640px) */
+/* 2. Desktop-specific layout (for screens wider than 640px) */
 @media screen and (min-width: 640px) {
   
   header {
-    /* Fixed width for your sidebar items */
-    width: 250px !important; 
+    /* Set a clear, wider sidebar width */
+    width: 260px !important; 
     position: absolute !important;
-    left: 40px !important;
+    left: 0 !important;
     top: 0 !important;
   }
 
-  /* Fix for the email/address overlap */
-  header h1, 
+  /* Force the email/address to stay inside the sidebar */
+  header email, 
   header .address, 
-  header email {
+  header h1 {
     display: block !important;
     width: 100% !important;
     word-wrap: break-word !important;
     overflow-wrap: break-word !important;
-    white-space: normal !important;
   }
 
   main {
-    /* THE GAP: Sidebar (250px) + Separation (100px) = 350px */
-    margin-left: 350px !important; 
+    /* THE MATH FOR THE GAP:
+       Sidebar (260px) + Desired Separation (120px) = 380px margin.
+       This ensures the columns NEVER touch. */
+    margin-left: 380px !important; 
     
-    /* Allow 'main' to fill all remaining horizontal space */
+    /* Allow the column to fill the remaining 920px of the wrapper */
+    display: block !important;
     width: auto !important;
     max-width: none !important;
     float: none !important;
-    display: block !important;
   }
 
-  /* 3. Unlock internal content width */
-  /* This ensures text inside '{{ content }}' uses the new width */
+  /* 3. Unlock internal content width so text uses the new space */
   main > * {
     max-width: 100% !important;
+  }
+}
+
+/* 4. Mobile fix: Reset margins so it doesn't break on phones */
+@media screen and (max-width: 639px) {
+  main {
+    margin-left: 0 !important;
   }
 }
