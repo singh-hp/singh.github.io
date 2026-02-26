@@ -4,8 +4,9 @@ layout: homepage
 
 ## Welcome to my homepage!
 
-I am a post-doc in Mathematical Physics at Tübingen University, under the supervision of [Prof. Marius Lemm](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/mariuslemm/mariuslemm) and [Prof. Stefan Teufel](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/stefanteufel?set_language=de).
-I obtained my PhD in Geometry and Mathematical Physics at [SISSA](https://www.sissa.it) under the supervision of [Prof. Marcello Porta](https://sites.google.com/view/marcelloporta/home).
+I am a post-doc in Mathematical Physics at Tübingen University, under the joint supervision of [Prof. Marius Lemm](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/mariuslemm/mariuslemm) and [Prof. Stefan Teufel](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/stefanteufel?set_language=de).
+
+Previously, I obtained my Ph.D. in Geometry and Mathematical Physics at [SISSA](https://www.sissa.it) under the supervision of [Prof. Marcello Porta](https://sites.google.com/view/marcelloporta/home).
 
 I study equations of the form $\int_0^\infty e^{-2\pi x^2} \, dx$.
 I am also interested in the  groups \\(H_k(\mathcal M_g, \mathbb Q)\\) and 
