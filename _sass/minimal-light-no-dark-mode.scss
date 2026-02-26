@@ -204,14 +204,15 @@ papertitle {
   margin-top: 0.6rem;
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  gap: 0.5rem;
+  box-sizing: border-box;
+  padding: 0;
+  margin-left: 0;
 }
 
 .nav a {
-  flex: 1 1 auto;
+  flex: 1 1 0;
   text-align: center;
-  padding: 0.35rem 0.5rem;
+  padding: 0.45rem 0.5rem;
   text-decoration: none;
   color: inherit;
   font-weight: 500;
@@ -226,6 +227,11 @@ papertitle {
   .nav a {
     color: rgb(62, 183, 240);
   }
+}
+
+/* ensure small horizontal spacing between items while keeping equal widths */
+.nav a + a {
+  margin-left: 0.25rem;
 }
 
 
