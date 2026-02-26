@@ -214,18 +214,19 @@ papertitle {
   text-align: center;
   padding: 0.45rem 0.5rem;
   text-decoration: none;
-  color: inherit;
+  color: #0b6b3a; /* deep desaturated green for light mode */
   font-weight: 500;
 }
 
 .nav a:hover {
   text-decoration: underline;
+  color: #054f2b; /* slightly darker on hover */
 }
 
 @media (prefers-color-scheme: dark) {
   /* keep same link color in dark mode */
   .nav a {
-    color: rgb(62, 183, 240);
+    color: #7fd3a0; /* lighter green for contrast on dark backgrounds */
   }
 }
 
