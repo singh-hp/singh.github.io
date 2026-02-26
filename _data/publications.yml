@@ -1,16 +1,19 @@
 main:
 
-  - title: Descartes' rule of signs for finite fields
-    authors: Gary Fishman
-    notes: in preparation
-    image: ./assets/img/teaser_example.png
-
-  - title: Vector encoding of phylogenetic trees by ordered leaf attachment
-    authors: Harry Richman, Cheng Zhang, Erick Matsen
-    arxiv: https://arxiv.org/abs/2503.10169
-    code: https://github.com/matsengrp/ola-encoding
-    image: ./assets/img/ola_tree_thumb.png
+  - title: Large scale dynamical response of interacting 1d Fermi systems
+    authors: Marcello Porta, Giuseppe Scola, Harman Preet Singh
+    arxiv: https://arxiv.org/abs/2509.08665
     notes: submitted
+    # image: ./assets/img/teaser_example.png
+
+  - title: Large Scale Response of Gapless 1d and Quasi-1d Systems
+    authors: Marcello Porta, Harman Preet Singh
+    journal_short: Ann. H. Poincaré
+    journal: Annales Henri Poincaré
+    year: 2025
+    arxiv: https://arxiv.org/abs/2411.04023
+    # image: ./assets/img/ola_tree_thumb.png
+    #notes: submitted
 
   - title: The floor quotient partial order
     authors: Jeffrey Lagarias, Harry Richman
