@@ -14,7 +14,7 @@ Previously, I obtained my Ph.D. in Geometry and Mathematical Physics at [SISSA](
 
 I study equations of the form $\int_0^\infty e^{-2\pi x^2} \, dx$.
 I am also interested in the  groups \\(H_k(\mathcal M_g, \mathbb Q)\\) and 
-$\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$. a
+$\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$.
 
 - **Tropical geometry:** curves and Jacobians, Weierstrass points
 - **Number theory:** uniform bounds on rational points, Riemann hypothesis
