@@ -6,7 +6,7 @@
 
 /* 1. Expand the master container */
 .wrapper {
-  max-width: 1200px; /* Increased slightly more for the extra spacing */
+  max-width: 1500px; /* Increased slightly more for the extra spacing */
   margin: 0 auto;
   position: relative;
 }
@@ -37,12 +37,5 @@
   /* 3. Ensure content fills the widened right column */
   main > * {
     max-width: 100% !important;
-  }
-
-  /* 4. Prevent long emails from breaking out of the header */
-  header email {
-    display: block;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
   }
 }
