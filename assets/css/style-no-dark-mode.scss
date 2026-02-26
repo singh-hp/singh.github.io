@@ -3,3 +3,53 @@
 
 @import "minimal-light-no-dark-mode";
 @import "publications-no-dark-mode";
+
+/* 1. Expand the total canvas */
+.wrapper {
+  max-width: 1300px; /* Increased to allow for a wider main body */
+  margin: 0 auto;
+  position: relative; 
+  padding: 0 40px;   /* Prevents the sidebar from touching the screen edge */
+}
+
+/* 2. Desktop Layout Logic (Standard 640px breakpoint) */
+@media screen and (min-width: 640px) {
+  
+  header {
+    /* Widen the sidebar area to fit longer emails */
+    width: 260px; 
+    position: absolute; 
+    left: 40px; 
+    top: 0;
+    z-index: 10;
+  }
+
+  /* Force long emails or addresses to wrap instead of overlapping */
+  header email, 
+  header .address, 
+  header a {
+    display: block;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+  }
+
+  main {
+    /* THE MATH: 
+       Sidebar (260px) + Desired Gap (100px) = 360px 
+       This margin-left creates the physical separation */
+    margin-left: 360px; 
+    
+    /* Ensure the main column stretches to fill the rest of the 1300px */
+    width: auto; 
+    max-width: none; 
+    float: none;
+    display: block;
+  }
+
+  /* 3. Unlock internal content expansion */
+  /* This ensures that '{{ content }}' actually uses the new width */
+  main > * {
+    max-width: 100% !important; 
+  }
+}
