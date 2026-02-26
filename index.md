@@ -15,7 +15,7 @@ I am also interested in the  groups \\(H_k(\mathcal M_g, \mathbb Q)\\) and
 $\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$.
 
 
-## Research Interests
+#### Research Interests
 
 - **Tropical geometry:** curves and Jacobians, Weierstrass points
 - **Number theory:** uniform bounds on rational points, Riemann hypothesis
