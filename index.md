@@ -10,23 +10,15 @@ I am a post-doc in Mathematical Physics at Tübingen University, under the joint
 
 Previously, I obtained my Ph.D. in Geometry and Mathematical Physics at [SISSA](https://www.sissa.it) under the supervision of [Prof. Marcello Porta](https://sites.google.com/view/marcelloporta/home).
 
+## Research Interests
+
 I study equations of the form $\int_0^\infty e^{-2\pi x^2} \, dx$.
 I am also interested in the  groups \\(H_k(\mathcal M_g, \mathbb Q)\\) and 
 $\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$.
 
-
-#### Research Interests
-
 - **Tropical geometry:** curves and Jacobians, Weierstrass points
 - **Number theory:** uniform bounds on rational points, Riemann hypothesis
 - **Biology:** evolution of bats
-
-## News
-
-- **[Feb. 2020]** Seminar talk at NTU graduate student event
-- **[Feb. 2020]** Colloquium talk at Chung Hsing University 中興大學
-- **[Sept. 2019]** Started Ph.D. program at NTU
-- **[Mar. 2019]** Graduated from Univeristy of Washington with bachelors degree.
 
 ## Publications
 
