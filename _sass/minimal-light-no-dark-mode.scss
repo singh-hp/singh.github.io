@@ -199,6 +199,31 @@ papertitle {
   width: 100%;
 }
 
+/* simple horizontal navigation bar matching minimal/light style */
+.nav {
+  margin-top: 0.8rem;
+  text-align: center;
+}
+
+.nav a {
+  margin: 0 0.8rem;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* keep same link color in dark mode */
+  .nav a {
+    color: rgb(62, 183, 240);
+  }
+}
+
+
 .image.avatar:before {
   display: none;
 }
