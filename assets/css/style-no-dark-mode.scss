@@ -3,3 +3,32 @@
 
 @import "minimal-light-no-dark-mode";
 @import "publications-no-dark-mode";
+
+/* 1. Expand the outer container */
+.wrapper {
+  max-width: 1100px; /* Adjust this value as needed */
+  margin: 0 auto;
+}
+
+/* 2. Responsive Layout for Header and Main */
+@media screen and (min-width: 640px) {
+  header {
+    width: 210px; /* Fixed width for your sidebar */
+    float: left;
+    position: relative;
+  }
+
+  main {
+    /* Takes up all remaining space in the .wrapper */
+    width: calc(100% - 260px); 
+    float: right;
+    margin: 0;
+  }
+
+  /* 3. RESET INTERNAL WIDTHS */
+  /* This ensures the actual text and content stretch to the new 'main' width */
+  main > * {
+    max-width: 100% !important;
+    width: auto;
+  }
+}
