@@ -4,16 +4,24 @@
 @import "minimal-light";
 @import "publications";
 
-.page-content,
-body > div,
-body > main,
-main,
-.post,
-.home,
-.content {
-  max-width: 1100px !important;
-  padding-left: 10px !important;
-  padding-right: 10px !important;
+/* === Fix two-column layout widths === */
+
+/* The outer container of header + main */
+body {
+  display: grid !important;
+  grid-template-columns: 260px 1fr !important; /* adjust 260px to your preferred sidebar width */
+  column-gap: 40px !important; /* spacing between the two columns */
+}
+
+/* Make the header column fixed width */
+header {
+  width: 260px !important;   /* must match left column width above */
+}
+
+/* Make the main content expand naturally */
+main {
+  max-width: 1100px;          /* or larger, adjust as needed */
+  width: 100%;
 }
 
 // .image.avatar img {
@@ -22,24 +30,3 @@ main,
 //     margin: 20px 10px;
 //     padding: 0;
 // }
-
-/* Adjust two-column layout widths */
-.container {
-  display: flex;
-  flex-direction: row;
-}
-
-/* Left column: header */
-.container header,
-.side,
-.sidebar {
-  flex: 0 0 200px !important;   /* change this number to your liking */
-}
-
-/* Right column: main content */
-.container main,
-.page-content,
-.content {
-  flex: 1 !important;
-  max-width: none !important;
-}
