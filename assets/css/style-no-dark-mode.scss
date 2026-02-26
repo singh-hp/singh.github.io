@@ -16,7 +16,7 @@
   
   header {
     /* Widen the sidebar slightly to prevent email overflow */
-    width: 240px; 
+    width: 200px; 
     position: absolute;
     left: 0;
     top: 0;
@@ -27,9 +27,9 @@
     max-width: 100%;
     
     /* INCREASED SPACING: 
-       Sidebar (240px) + Gap (200px) = 440px 
+       Sidebar (200px) + Gap (200px) = 400px 
        This creates a clear 'gutter' between columns */
-    margin-left: 440px; 
+    margin-left: 400px; 
     
     float: none; 
   }
