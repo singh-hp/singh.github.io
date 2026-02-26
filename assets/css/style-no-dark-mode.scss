@@ -4,52 +4,51 @@
 @import "minimal-light-no-dark-mode";
 @import "publications-no-dark-mode";
 
-/* 1. Expand the total canvas */
+/* 1. Global expansion of the page width */
 .wrapper {
-  max-width: 1300px; /* Increased to allow for a wider main body */
-  margin: 0 auto;
-  position: relative; 
-  padding: 0 40px;   /* Prevents the sidebar from touching the screen edge */
+  max-width: 1250px !important; /* Total site width */
+  margin: 0 auto !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  position: relative !important;
 }
 
-/* 2. Desktop Layout Logic (Standard 640px breakpoint) */
+/* 2. Desktop Layout (Applied only to screens wider than 640px) */
 @media screen and (min-width: 640px) {
   
   header {
-    /* Widen the sidebar area to fit longer emails */
-    width: 260px; 
-    position: absolute; 
-    left: 40px; 
-    top: 0;
-    z-index: 10;
+    /* Fixed width for your sidebar items */
+    width: 250px !important; 
+    position: absolute !important;
+    left: 40px !important;
+    top: 0 !important;
   }
 
-  /* Force long emails or addresses to wrap instead of overlapping */
-  header email, 
+  /* Fix for the email/address overlap */
+  header h1, 
   header .address, 
-  header a {
-    display: block;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    max-width: 100%;
+  header email {
+    display: block !important;
+    width: 100% !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
   }
 
   main {
-    /* THE MATH: 
-       Sidebar (260px) + Desired Gap (100px) = 360px 
-       This margin-left creates the physical separation */
-    margin-left: 360px; 
+    /* THE GAP: Sidebar (250px) + Separation (100px) = 350px */
+    margin-left: 350px !important; 
     
-    /* Ensure the main column stretches to fill the rest of the 1300px */
-    width: auto; 
-    max-width: none; 
-    float: none;
-    display: block;
+    /* Allow 'main' to fill all remaining horizontal space */
+    width: auto !important;
+    max-width: none !important;
+    float: none !important;
+    display: block !important;
   }
 
-  /* 3. Unlock internal content expansion */
-  /* This ensures that '{{ content }}' actually uses the new width */
+  /* 3. Unlock internal content width */
+  /* This ensures text inside '{{ content }}' uses the new width */
   main > * {
-    max-width: 100% !important; 
+    max-width: 100% !important;
   }
 }
