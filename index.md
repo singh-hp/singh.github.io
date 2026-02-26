@@ -4,8 +4,8 @@ layout: homepage
 
 ## Welcome to my homepage!
 
-I am a Ph.D. student at National Taiwan University, advised by [Chee-Chun Leung (梁次震)](https://www.theplan.it/eng/award-2020-Education/ntu-chee-chun-leung-cosmology-hall-a-floating-cube-in-space-kris-yao-artech).
-Before coming to NTU I studied math at the [University of Washington](http://math.washington.edu/).
+I am a post-doc in Mathematical Physics at Tübingen University, under the supervision of [Prof. Marius Lemm](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/mariuslemm/mariuslemm) and [Prof. Stefan Teufel](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/stefanteufel?set_language=de).
+I obtained my PhD in Geometry and Mathematical Physics at [SISSA](https://www.sissa.it) under the supervision of [Prof. Marcello Porta](https://sites.google.com/view/marcelloporta/home).
 
 I study equations of the form $\int_0^\infty e^{-2\pi x^2} \, dx$.
 I am also interested in the  groups \\(H_k(\mathcal M_g, \mathbb Q)\\) and 
