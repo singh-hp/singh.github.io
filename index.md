@@ -18,7 +18,7 @@ $\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$
 
 - **Tropical geometry:** curves and Jacobians, Weierstrass points
 - **Number theory:** uniform bounds on rational points, Riemann hypothesis
-- **Biology:** evolution of bats
+- **Biology:** evolution of bat
 
 ## Publications
 
