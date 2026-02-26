@@ -3,3 +3,7 @@
 
 @import "minimal-light-no-dark-mode";
 @import "publications-no-dark-mode";
+
+/* ↓ Add this AFTER the imports ↓ */
+:root {  --content-width: 900px;  
+    /* change to whatever width you prefer */}
