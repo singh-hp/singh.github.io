@@ -15,3 +15,24 @@ main,
   padding-left: 10px !important;
   padding-right: 10px !important;
 }
+
+/* Adjust two-column layout widths */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Left column: header */
+.container header,
+.side,
+.sidebar {
+  flex: 0 0 250px !important;   /* change this number to your liking */
+}
+
+/* Right column: main content */
+.container main,
+.page-content,
+.content {
+  flex: 1 !important;
+  max-width: none !important;
+}
