@@ -45,7 +45,7 @@ font: "Serif" # "Serif" or "Sans Serif"
 # option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
 enable_footnote: true
 # option to toggle the automatic dark theme
-auto_dark_mode: true
+auto_dark_mode: false
 # option to make avatar (profile photo) round vs rectangular
 round_avatar: false
 # option to show thumbnail or "teaser" figure next to each publication
