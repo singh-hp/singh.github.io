@@ -18,10 +18,10 @@ Auf der Morgenstelle, 10
 
 ## Essential CV
 
-Since 2025: Postdoctoral researcher, [University of Tübingen](https://uni-tuebingen.de/en/), Germany    
-2025: Ph.D. in Geometry and Mathematical Physics, [SISSA](https://www.sissa.it), Trieste, Italy    
-2021: M.Sc. in Physics, [University of Padova](https://www.unipd.it/en/), Italy   
-2019: B.Sc. in Physics, [University of Padova](https://www.unipd.it/en/), Italy
+**2025-now**: Postdoctoral researcher, [University of Tübingen](https://uni-tuebingen.de/en/), Germany    
+**2025**: Ph.D. in Geometry and Mathematical Physics, [SISSA](https://www.sissa.it), Trieste, Italy    
+**2021**: M.Sc. in Physics, [University of Padova](https://www.unipd.it/en/), Italy   
+**2019**: B.Sc. in Physics, [University of Padova](https://www.unipd.it/en/), Italy
 
 [Here](/assets/files/Singh_CV.pdf) you can find a detailed academic CV.
 
