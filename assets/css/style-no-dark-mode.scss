@@ -3,24 +3,3 @@
 
 @import "minimal-light-no-dark-mode";
 @import "publications-no-dark-mode";
-
-/* === Vertically center header content on desktop === */
-@media (min-width: 960px) {
-  /* Make the whole page at least one viewport tall */
-  .wrapper { min-height: 100vh; }
-
-  /* Make the header column fill the viewport height and center its children */
-  header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  /* vertical centering */
-    min-height: 100vh;        /* ensures there's vertical space to center within */
-  }
-}
-
-/* Keep mobile behavior untouched */
-@media (max-width: 959.98px) {
-  header {
-    min-height: auto;
-  }
-}
