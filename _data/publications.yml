@@ -13,7 +13,7 @@ main:
     year: 2025
     link: https://link.springer.com/article/10.1007/s00023-025-01600-z
     arxiv: https://arxiv.org/abs/2411.04023
-    # image: ./assets/img/ola_tree_thumb.png
+    image: ./assets/img/lattice2d.png
     #notes: submitted
 
   - title: The floor quotient partial order
