@@ -16,7 +16,7 @@ Auf der Morgenstelle, 10
 72076 Tübingen, Germany  
 **Office**: C4P42 
 
-## Brief CV
+## Essential CV
 
 Since 2025: Postdoctoral researcher, [University of Tübingen](https://uni-tuebingen.de/en/), Germany    
 2025: Ph.D. in Geometry and Mathematical Physics, [SISSA](https://www.sissa.it), Trieste, Italy    
