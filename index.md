@@ -9,7 +9,17 @@ My name is Harman Preet Singh, which can be spelt as ਹਰਮਨਪ੍ਰੀਤ
 Currently, I am a postdoc at [Eberhard-Karls-Universität Tübingen](https://uni-tuebingen.de/en/), working in the groups of [Prof. Marius Lemm](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/mariuslemm/mariuslemm) and [Prof. Stefan Teufel](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/stefanteufel?set_language=de).
 Previously, I obtained my Ph.D. in Mathematics at [SISSA](https://www.sissa.it), under the supervision of [Prof. Marcello Porta](https://sites.google.com/view/marcelloporta/home).
 
-## Contact
+### Research Interests
+
+I study equations of the form $\int_0^\infty e^{-2\pi x^2} \, dx$.
+I am also interested in the  groups \\(H_k(\mathcal M_g, \mathbb Q)\\) and 
+$\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$
+
+- **Tropical geometry:** curves and Jacobians, Weierstrass points
+- **Number theory:** uniform bounds on rational points, Riemann hypothesis
+- **Biology:** evolution of bats.
+
+### Contact
 Eberhard Karls Universität Tübingen,
 Fachbereich Mathematik,    
 Auf der Morgenstelle, 10   
@@ -24,16 +34,6 @@ Auf der Morgenstelle, 10
 **2019**: B.Sc. in Physics, [University of Padova](https://www.unipd.it/en/), Italy
 
 [Here](/assets/files/Singh_CV.pdf) you can find a detailed academic CV.
-
-## Research Interests
-
-I study equations of the form $\int_0^\infty e^{-2\pi x^2} \, dx$.
-I am also interested in the  groups \\(H_k(\mathcal M_g, \mathbb Q)\\) and 
-$\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$
-
-- **Tropical geometry:** curves and Jacobians, Weierstrass points
-- **Number theory:** uniform bounds on rational points, Riemann hypothesis
-- **Biology:** evolution of bats.
 
 ## Publications
 
