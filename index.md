@@ -25,6 +25,10 @@ $\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$
 - **Number theory:** uniform bounds on rational points, Riemann hypothesis
 - **Biology:** evolution of bats.
 
+## Publications
+
+{% include_relative _includes/publications.html %}
+
 ## Essential CV
 
 **2025-now**: Postdoctoral researcher, [University of Tübingen](https://uni-tuebingen.de/en/), Germany    
@@ -33,10 +37,6 @@ $\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$
 **2019**: B.Sc. in Physics, [University of Padova](https://www.unipd.it/en/), Italy
 
 [Here](/assets/files/Singh_CV.pdf) you can find a detailed academic CV.
-
-## Publications
-
-{% include_relative _includes/publications.html %}
 
 ## Notes and Presentations
 
