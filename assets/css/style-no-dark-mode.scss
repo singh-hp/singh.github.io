@@ -4,56 +4,66 @@
 @import "minimal-light-no-dark-mode";
 @import "publications-no-dark-mode";
 
-/* 1. Expand total site width */
+/* --- COMPLETE LAYOUT OVERHAUL --- */
+
+/* 1. Global Page Width */
 .wrapper {
-  max-width: 1300px !important;
+  max-width: 1350px !important; /* Total width for a large main body */
+  width: 95% !important;
   margin: 0 auto !important;
+  padding: 0 30px !important;   /* Protects the sidebar from hitting the edge */
   position: relative !important;
 }
 
-/* 2. Desktop-specific layout (for screens wider than 640px) */
+/* 2. Desktop Fixes (Applied for screens wider than 640px) */
 @media screen and (min-width: 640px) {
   
-  header {
-    /* Set a clear, wider sidebar width */
-    width: 260px !important; 
-    position: absolute !important;
-    left: 0 !important;
-    top: 0 !important;
+  .wrapper {
+    display: flex !important;           /* Forces the columns to sit side-by-side */
+    flex-direction: row !important;
+    align-items: flex-start !important;
   }
 
-  /* Force the email/address to stay inside the sidebar */
-  header email, 
-  header .address, 
-  header h1 {
-    display: block !important;
-    width: 100% !important;
-    word-wrap: break-word !important;
-    overflow-wrap: break-word !important;
+  header {
+    /* Fixed Sidebar width: large enough for your email */
+    flex: 0 0 280px !important; 
+    width: 280px !important;
+    position: static !important;       /* Removes absolute/fixed "overlap" logic */
+    margin-right: 120px !important;    /* THE GAP: This is your 120px separation */
+    float: none !important;
+    padding: 0 !important;
   }
 
   main {
-    /* THE MATH FOR THE GAP:
-       Sidebar (260px) + Desired Separation (120px) = 380px margin.
-       This ensures the columns NEVER touch. */
-    margin-left: 380px !important; 
-    
-    /* Allow the column to fill the remaining 920px of the wrapper */
-    display: block !important;
+    /* Expand the main column to fill all remaining 950px */
+    flex: 1 1 auto !important;
     width: auto !important;
     max-width: none !important;
+    margin-left: 0 !important;         /* Resets the theme's default overlap */
     float: none !important;
+    display: block !important;
   }
 
-  /* 3. Unlock internal content width so text uses the new space */
+  /* 3. ENLARGE CONTENT: Theme often limits text width to 520px. We must unset it. */
+  /* This targets the content inside '{{ content }}' */
   main > * {
-    max-width: 100% !important;
+    max-width: 100% !important; 
   }
 }
 
-/* 4. Mobile fix: Reset margins so it doesn't break on phones */
+/* 4. Fix for long emails provided in your HTML */
+header email, 
+header .address, 
+header a {
+  display: block !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  white-space: normal !important;
+  max-width: 100% !important;
+}
+
+/* 5. Mobile Safety: Reset for phones */
 @media screen and (max-width: 639px) {
-  main {
-    margin-left: 0 !important;
-  }
+  .wrapper { display: block !important; }
+  header, main { width: 100% !important; margin: 0 !important; }
 }
