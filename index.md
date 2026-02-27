@@ -11,7 +11,7 @@ Previously, I obtained my Ph.D. in Mathematics at [SISSA](https://www.sissa.it),
 
 ## Contact
 Eberhard Karls Universität Tübingen,
-Fachbereik Mathematik,    
+Fachbereich Mathematik,    
 Auf der Morgenstelle, 10   
 72076 Tübingen, Germany  
 **Office**: C4P42 
