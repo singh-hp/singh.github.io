@@ -77,14 +77,6 @@ My name is spelled as ਹਰਮਨਪ੍ਰੀਤ ਸਿੰਘ in [Gurmukhī](ht
 **Other template features:**
 - Mathjax enabled: use `$...$` or `\\(...\\)` for inline mode; use `\\[...\\]` for display mode
 
-- Markdown code:
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-    s.add_dependency(gem, "= #{version}")
-end
-```
-
 - Markdown for a math quote:
 > God is always doing geometry  
 > -- Plato
