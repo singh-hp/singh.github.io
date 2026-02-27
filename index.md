@@ -9,6 +9,13 @@ My name is Harman Preet Singh, which can be spelt as ਹਰਮਨਪ੍ਰੀਤ
 Currently, I am a postdoc at [Eberhard-Karls-Universität Tübingen](https://uni-tuebingen.de/en/), working in the groups of [Prof. Marius Lemm](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/mariuslemm/mariuslemm) and [Prof. Stefan Teufel](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/stefanteufel?set_language=de).
 Previously, I obtained my Ph.D. in Mathematics at [SISSA](https://www.sissa.it), under the supervision of [Prof. Marcello Porta](https://sites.google.com/view/marcelloporta/home).
 
+## Contact
+Eberhard Karls Universität Tübingen,
+Fachbereik Mathematik,    
+Auf der Morgenstelle, 10   
+72076 Tübingen, Germany  
+**Office**: C4P42 
+
 ## Brief CV
 
 Since 2025: Postdoctoral researcher, [University of Tübingen](https://uni-tuebingen.de/en/), Germany    
