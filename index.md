@@ -8,7 +8,16 @@ My name is Harman Preet Singh, which can be spelt as ਹਰਮਨਪ੍ਰੀਤ
 
 Currently, I am a postdoc at the [Eberhard Karls University of Tübingen](https://uni-tuebingen.de/en/), working in the groups of [Prof. Marius Lemm](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/mariuslemm/mariuslemm) and [Prof. Stefan Teufel](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/stefanteufel?set_language=de).
 
-Previously, I obtained my Ph.D. in Geometry and Mathematical Physics at [SISSA](https://www.sissa.it), under the supervision of [Prof. Marcello Porta](https://sites.google.com/view/marcelloporta/home).
+Previously, I obtained my Ph.D. in Mathematics at [SISSA](https://www.sissa.it), under the supervision of [Prof. Marcello Porta](https://sites.google.com/view/marcelloporta/home).
+
+## Brief CV
+
+Since 2025: Postdoctoral researcher, [Eberhard Karls University of Tübingen](https://uni-tuebingen.de/en/)    
+2025: Ph.D. in Geometry and Mathematical Physics, [SISSA](https://ist.ac.at/en/home/), Trieste    
+2021: M.Sc. in Physics, [University of Padova](https://www.unipd.it/en/)   
+2019: B.Sc. in Physics, [University of Padova](https://www.unipd.it/en/)
+
+[Here](/assets/files/Singh_CV.pdf) you can find a detailed academic CV.
 
 ## Research Interests
 
