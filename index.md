@@ -2,22 +2,20 @@
 layout: homepage
 ---
 
-## Welcome to my homepage!
+# Welcome to my homepage!
 
-My name is Harman Preet Singh, which can be spelt as ਹਰਮਨਪ੍ਰੀਤ ਸਿੰਘ in [Gurmukhī](https://en.wikipedia.org/wiki/Gurmukhi), as ہرمنپریت سنگھ in [Shāhmukhī](https://en.wikipedia.org/wiki/Shahmukhi), as हरमनप्रीत सिंह in [Devanāgarī](https://en.wikipedia.org/wiki/Devanagari), and as ἁρμανπριτ σινγ᾽ in Greek. Tentatively, in Hangul you would have 할만플맅 싱.
-
-### Contact
+## Contact
 Eberhard Karls Universität Tübingen,
 Fachbereich Mathematik,    
 Auf der Morgenstelle, 10   
 72076 Tübingen, Germany  
 **Office**: C4P42 
 
-### About me
+## About me
 Currently, I am a postdoc at [Eberhard-Karls-Universität Tübingen](https://uni-tuebingen.de/en/), working in the groups of [Prof. Marius Lemm](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/mariuslemm/mariuslemm) and [Prof. Stefan Teufel](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/stefanteufel?set_language=de).
 Previously, I obtained my Ph.D. in Mathematics at [SISSA](https://www.sissa.it), under the supervision of [Prof. Marcello Porta](https://sites.google.com/view/marcelloporta/home).
 
-### Research Interests
+## Research Interests
 
 I study equations of the form $\int_0^\infty e^{-2\pi x^2} \, dx$.
 I am also interested in the  groups \\(H_k(\mathcal M_g, \mathbb Q)\\) and 
@@ -27,7 +25,7 @@ $\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$
 - **Number theory:** uniform bounds on rational points, Riemann hypothesis
 - **Biology:** evolution of bats.
 
-### Essential CV
+## Essential CV
 
 **2025-now**: Postdoctoral researcher, [University of Tübingen](https://uni-tuebingen.de/en/), Germany    
 **2025**: Ph.D. in Geometry and Mathematical Physics, [SISSA](https://www.sissa.it), Trieste, Italy    
@@ -70,6 +68,8 @@ when $X$ is an algebraic curve.
 - Inventiones
 
 ## Misc. Links
+
+My name is Harman Preet Singh, which can be spelt as ਹਰਮਨਪ੍ਰੀਤ ਸਿੰਘ in [Gurmukhī](https://en.wikipedia.org/wiki/Gurmukhi), as ہرمنپریت سنگھ in [Shāhmukhī](https://en.wikipedia.org/wiki/Shahmukhi), as हरमनप्रीत सिंह in [Devanāgarī](https://en.wikipedia.org/wiki/Devanagari), and as ἁρμανπριτ σινγ᾽ in Greek. Tentatively, in Hangul you would have 할만플맅 싱.
 
 - [MathSciNet](https://mathscinet.ams.org/mathscinet)
 - [Online Encyclopedia of Integer Sequences (OEIS)](https://oeis.org/)
