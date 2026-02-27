@@ -7,7 +7,6 @@ layout: homepage
 My name is Harman Preet Singh, which can be spelt as ਹਰਮਨਪ੍ਰੀਤ ਸਿੰਘ in [Gurmukhi](https://en.wikipedia.org/wiki/Gurmukhi), as ہرمنپریت سنگھ in [Shahmukhi](https://en.wikipedia.org/wiki/Shahmukhi), and as हरमनप्रीत सिंह in [Devanagari](https://en.wikipedia.org/wiki/Devanagari). 
 
 Currently, I am a postdoc at [Eberhard Karls Universität Tübingen](https://uni-tuebingen.de/en/), working in the groups of [Prof. Marius Lemm](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/mariuslemm/mariuslemm) and [Prof. Stefan Teufel](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/stefanteufel?set_language=de).
-
 Previously, I obtained my Ph.D. in Mathematics at [SISSA](https://www.sissa.it), under the supervision of [Prof. Marcello Porta](https://sites.google.com/view/marcelloporta/home).
 
 ## Brief CV
