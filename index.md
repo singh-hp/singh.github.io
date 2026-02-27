@@ -13,7 +13,7 @@ Previously, I obtained my Ph.D. in Mathematics at [SISSA](https://www.sissa.it),
 ## Brief CV
 
 Since 2025: Postdoctoral researcher, [Eberhard Karls University of Tübingen](https://uni-tuebingen.de/en/)    
-2025: Ph.D. in Geometry and Mathematical Physics, [SISSA](https://ist.ac.at/en/home/), Trieste    
+2025: Ph.D. in Geometry and Mathematical Physics, [SISSA](https://www.sissa.it), Trieste    
 2021: M.Sc. in Physics, [University of Padova](https://www.unipd.it/en/)   
 2019: B.Sc. in Physics, [University of Padova](https://www.unipd.it/en/)
 
