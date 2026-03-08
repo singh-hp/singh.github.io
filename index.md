@@ -9,7 +9,9 @@ Eberhard Karls Universität Tübingen,
 Fachbereich Mathematik,    
 Auf der Morgenstelle, 10   
 72076 Tübingen, Germany  
-**Office**: C4P42 
+**Office**: C4P42
+**Email**: harman-preet (dot) singh (at) uni-tuebingen (dot) de
+**Personal email**: harman97 (at) hotmail (dot) com
 
 ## About me
 Currently, I am a postdoc at [Eberhard-Karls-Universität Tübingen](https://uni-tuebingen.de/en/), working in the groups of [Prof. Marius Lemm](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/mariuslemm/mariuslemm) and [Prof. Stefan Teufel](https://www.math.uni-tuebingen.de/de/forschung/maphy/personen/stefanteufel?set_language=de).
