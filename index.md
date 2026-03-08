@@ -7,11 +7,10 @@ layout: homepage
 ## Contact
 Eberhard Karls Universität Tübingen,
 Fachbereich Mathematik,
-
 Auf der Morgenstelle, 10   
 72076 Tübingen, Germany  
-**Office**: C4P42
-**Email**: harman-preet (dot) singh (at) uni-tuebingen (dot) de
+**Office**: C4P42   
+**Email**: harman-preet (dot) singh (at) uni-tuebingen (dot) de 
 **Personal email**: harman97 (at) hotmail (dot) com
 
 ## About me
