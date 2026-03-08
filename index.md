@@ -5,8 +5,7 @@ layout: homepage
 # Welcome to my homepage!
 
 ## Contact
-Eberhard Karls Universität Tübingen,
-Fachbereich Mathematik,    
+Eberhard Karls Universität Tübingen, Fachbereich Mathematik
 Auf der Morgenstelle, 10   
 72076 Tübingen, Germany  
 **Office**: C4P42
